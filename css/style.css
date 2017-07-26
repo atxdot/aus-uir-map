@@ -15,12 +15,12 @@ h2 {
   border: 2px solid;
   border-radius: 8px;
   border-color: white;
-  height:99%;
+  height: 99%;
   position: absolute;
-  left: 2px;
-  bottom: 2px;
-  right: 2px;
-  top: 2px;
+  left: 1px;
+  bottom: 1px;
+  right: 1px;
+  top: 1px;
   overflow: hidden;
 }
 #HomeButton {

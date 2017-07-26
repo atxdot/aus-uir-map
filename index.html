@@ -2,31 +2,38 @@
 <!-- This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ -->
 <html>
 <head>
-    <title>TxDOT Facilities Map</title>
+    <title>AUS Detention Pond Inventory</title>
     <meta http-equiv="X-UA-Compatible" content="IE=EDGE">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!-- Load dijit theme and esri style sheets -->
     <link rel="stylesheet" href="https://js.arcgis.com/3.21/dijit/themes/claro/claro.css">
     <link rel="stylesheet" href="https://js.arcgis.com/3.21/esri/css/esri.css">
-    <script src="http://js.arcgis.com/3.21/"></script>
+    <!-- Load arcgis javascript api -->
+    <script src="https://js.arcgis.com/3.21/"></script>
+    <!-- Load local style sheet -->
     <link rel="stylesheet" href="css/style.css">
-    <script>
-        var dojoConfig = {
-          async : true
-        };
-    </script>
+    <!-- Load Font Awesome -->
+    <!--<link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU" crossorigin="anonymous">-->
+    <!-- Load Easy Button -->
+    <!--<link rel="stylesheet" href="style/easy-button.css">-->
+    <!--<script src="js/easy-button.js"></script>-->
+    <!-- Load Bootstrap -->
+    <!--<link rel="stylesheet" href="css/bootstrap.min.css" />-->
+    <!--<script src="js/bootstrap.min.js"></script>-->
+    <!-- Load javascript for map -->
     <script src="js/map.js"></script>
 </head>
 
 <body class="claro" style='font-family="sans-serif"'>
     <div id="maskDiv"></div>
-    
+
     <div id="divMap">
       <div id="HomeButton" class="button"></div>
       <div id="divBasemapToggle"></div>
       <button type="button" id="btnHelp">?</button>
     </div>
     <div id="divTOC">
-      <h1 id="tocHeader">Facilities Map</h1>
+      <h1 id="tocHeader">AUS Detention Pond Inventory</h1>
       <!-- <div id="divEditor"></div> -->
       <div id="divTemplateContainer">
       <div id="templateMaskDiv" title="Zoom in to enable"></div>

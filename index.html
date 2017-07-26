@@ -9,8 +9,13 @@
     <link rel="stylesheet" href="https://js.arcgis.com/3.21/dijit/themes/claro/claro.css">
     <link rel="stylesheet" href="https://js.arcgis.com/3.21/esri/css/esri.css">
     <script src="http://js.arcgis.com/3.21/"></script>
-
     <link rel="stylesheet" href="css/style.css">
+    <script>
+        var dojoConfig = {
+          async : true
+        };
+    </script>
+    <script src="js/map.js"></script>
 </head>
 
 <body class="claro" style='font-family="sans-serif"'>
@@ -18,7 +23,7 @@
     <div id="helpDiv">
       <button type="button" id="btnClose"> X </button>
       <img src="Help.jpg" style="margin:auto; width:900px; display:block; border-radius: 5pt;" />
-      <a href="mailto:TPP-GIS@txdot.gov" style="position: relative; bottom: 140px; left: 53px;">TPP-GIS@txdot.gov</a>
+      <a href="mailto:john.haney@txdot.gov" style="position: relative; bottom: 140px; left: 53px;">john.haney@txdot.gov</a>
     </div>
     <div id="divMap">
       <div id="HomeButton" class="button"></div>
@@ -38,13 +43,5 @@
         <div id="divLegend"></div>
       </div>
     </div>
-
-    <script>
-        var dojoConfig = {
-          async : true
-        };
-    </script>
-    <script src="js/map.js"></script>
-
 </body>
 </html>

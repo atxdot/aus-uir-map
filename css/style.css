@@ -1,215 +1,27 @@
 html, body {
-  color: dimgray;
-  font-family: sans-serif;
-}
-h2 {
-  color:dimgray;
-  font-size: 12px;
-  text-align: center;
-  font-family: sans-serif;
-  background-color: #D0D2D6;
-  padding: 5px;
-  margin-top: 0px;
-}
-#divMap{
-  border: 2px solid;
-  border-radius: 8px;
-  border-color: white;
-  height: 99%;
-  position: absolute;
-  left: 1px;
-  bottom: 1px;
-  right: 1px;
-  top: 1px;
-  overflow: hidden;
-}
-#HomeButton {
-  position: absolute;
-  top: 95px;
-  left: 225px;
-  z-index: 50;
-}
-#divTOC{
-  border-radius: 5px 0px 5px 5px;
-  width:200px;
-  position: absolute;
-  left: 4px;
-  top: 4px;
-  overflow: hidden;
-  padding-bottom: 5px;
-}
-#divTemplateContainer{
-  position: relative;
-  width: 196px;
-  height: 240px;
-  top: 2px;
-  border: 2px solid;
-  border-radius: 0px 0px 5px 5px;
-  border-color: #D0D2D6;
-  background-color: white;
-}
-#divLegendContainer {
-  position: relative;
-  width: 196px;
-  height: auto;
-  top: 5px;
-  border: 2px solid;
-  border-radius: 5px;
-  border-color: #D0D2D6;
-  font-family: sans-serif;
-  font-size: 12px;
-  text-align: center;
-  background-color: white;
-}
-#divLegendContainer h2 {
-  cursor: pointer;
-  margin-bottom: 0px;
-}
-#divLegend_graphicsLayer3 {
-  display: none;
-}
-#divLegend{
-  width: 150px;
-  top: 5px;
-  left: 25px;
-  text-align: center;
-  display: none;
-}
-#divBasemapToggle {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  z-index: 50;
-  border: none;
-}
-#divEditor {
-  position: relative;
-  border-radius: 5px;
-  top: 0px;
-  left: 0px;
-  z-index: 50;
-  background-color: white;
-}
-#divTemplatePicker {
-  position: relative;
-  top: 0px;
-  left: 58px;
-  border: none;
+  margin: 0;
   padding: 0;
-}
-#templateMaskDiv {
-  position: absolute;
-  top: 30px;
-  width: 191px;
-  height: 210px;
-  left: 2px;
-  font-family: sans-serif;
-  font-size: 12px;
-  text-align: center;
-  background-color: white;
-  opacity: .6;
-  display: block;
-  z-index: 50;
-  border-radius: 5px;
-}
-#tocHeader {
-  background-color: #6699CC;
-  color: #FFFFFF;
-  cursor: default;
-  font-size: 16px;
-  font-family: sans-serif;
-  border-radius: 5px 5px 0px 0px;
-  padding: 5px;
-  text-align: center;
-  vertical-align: middle;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-#btnHelp {
-  right: 20px;
-  bottom: 20px;
-  position: absolute;
-  text-align: center;
-  border: 1px solid white;
-  background-color: rgba(240, 240, 240, 0.8);
-  color: #0649FB;
-  border-radius: 50px;
-  width: 25px;
-  height: 25px;
-  font-size: 14px;
-  z-index: 51;
-  font-weight: bold;
-  cursor: pointer;
-}
-#btnClose {
-  right: 24px;
-  bottom: 25px;
-  position: fixed;
-  text-align: center;
-  border: 1px solid white;
-  background-color: rgba(240, 240, 240, .5);
-  color: #0649FB;
-  border-radius: 50px;
-  width: 25px;
-  height: 25px;
-  font-size: 14px;
-  z-index: 51;
-  font-weight: bold;
-  cursor: pointer;
-}
-#maskDiv{
   height: 100%;
-  width: 100%;
-  top: 0;
-    left: 0;
-  background-color: rgba(0,0,0,.5);
-  position: fixed;
-  display: none;
-  z-index: 100;
 }
-#helpDiv{
-  height: 99%;
-  width: auto;
-  left: 25%;
-  margin: auto;
-  position: absolute;
-  overflow: auto;
-  display: none;
-  z-index: 101;
+
+.txdot {
+  float: left;
 }
-.templatePicker .grid .dojoxGridHeader {
-  display:none;
+
+@media screen and (max-width: 420px) {
+  #resize-title {
+    font-size: large;
+  }
 }
-.templatePicker .grid .item {
-  cursor: pointer;
+
+@media screen and (max-width: 380px) {
+  #resize-title {
+    font-size: medium;
+  }
 }
-.BasemapToggle .toggleButton {
-  border:none !important;
-}
-.claro .dijitToolbar {
-  border-radius: 2px;
-  border-bottom: none;
-}
-#divLegend_graphicsLayer3 td{
-  text-align: center;
-  padding-bottom: 0px;
-}
-#divLegend_null td{
-  text-align: center;
-  padding-bottom: 0px;
-}
-.esriLegendServiceLabel {
-  display: none;
-  padding-top: 0px;
-}
-.esriLegendService {
-  padding-bottom: 10px;
-}
-#divMap_zoom_slider {
-  left: 225px;
-}
-.HomeButton .home {
-  background-image: url("http://maps.dot.state.tx.us/Images/TexasIcon.png");
-  background-size: 24px 24px;
-  width: 28px;
+
+@media screen and (max-width: 350px) {
+  #resize-title {
+    font-size: small;
+  }
 }
